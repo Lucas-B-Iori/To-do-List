@@ -1,0 +1,27 @@
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #222;
+    transition: .3s;
+}
+
+.todo h3 {
+    flex: 1;
+    font-size: 1.1rem;
+}
+
+.todo button {
+    margin-left: .4rem;
+}
+
+.done {
+    background-color: #395169;
+}
+
+.done h3 {
+    color: #FDFDFD;
+    text-decoration: line-through;
+    font-style: italic;
+}
